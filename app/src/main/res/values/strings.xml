@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Grid Application</string>
+    <string name="ig">Instagram</string>
+    <string name="tt">Twitter</string>
+    <string name="fb">Facebook</string>
+    <string name="wa">Whatsapp</string>
+    <string name="gh">GitHub</string>
+    <string name="so">StackOverflow</string>
+    <string name="lofo">Log In Form</string>
+    <string name="lgn">LOGIN</string>
+    <string name="cnc">CANCEL</string>
+</resources>
