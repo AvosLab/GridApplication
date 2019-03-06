@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Intent i = getIntent();
-        String nama = i.getStringExtra("nama");
+        final String nama = i.getStringExtra("nama");
         Log.e("halaman utama", nama);
 
         findViewById(R.id.insta).setOnClickListener(new View.OnClickListener() {
@@ -76,6 +76,15 @@ public class MainActivity extends AppCompatActivity {
                 Intent i = new Intent(Intent.ACTION_VIEW);
                 i.setData(Uri.parse(url));
                 startActivity(i);
+            }
+        });
+        findViewById(R.id.gua).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent dosScreen = new Intent(getApplicationContext(), DosActivity.class);
+                dosScreen.putExtra("nama", nama);
+                Log.e("Dos", nama);
+                startActivity(dosScreen);
             }
         });
     }

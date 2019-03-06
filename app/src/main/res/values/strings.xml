@@ -9,4 +9,9 @@
     <string name="lofo">Log In Form</string>
     <string name="lgn">LOGIN</string>
     <string name="cnc">CANCEL</string>
+    <string name="jng">Nama :</string>
+    <string name="nampan">Long name :</string>
+    <string name="saya">Ahmad Dwi Sovana</string>
+    <string name="txtNIM">NIM :</string>
+    <string name="strNIM">17112362</string>
 </resources>
