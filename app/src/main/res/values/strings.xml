@@ -14,4 +14,6 @@
     <string name="saya">Ahmad Dwi Sovana</string>
     <string name="txtNIM">NIM :</string>
     <string name="strNIM">17112362</string>
+    <string name="txtEmail">e-mail :</string>
+    <string name="strEmail">dwi.hyuga@gmail.com</string>
 </resources>
